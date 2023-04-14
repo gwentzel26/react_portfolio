@@ -23,17 +23,28 @@ const SocialLinks = () => {
                 </>
             ),
             href: 'https://github.com/gwentzel26',
-            style: 'rounded-tr-md'
+           
         },
         {
             id: 3,
             child: (
                 <>
-               LinkedIn <FaLinkedin size={30}/>
+               Mail <HiOutlineMail size={30}/>
                 </>
             ),
-            href: 'https://www.linkedin.com/in/gavinwentzel/',
-            style: 'rounded-tr-md'
+            href: 'mailto:gavinwentzel@gmail.com',
+       
+        },
+        {
+            id: 4,
+            child: (
+                <>
+               Resume <BsFillPersonLinesFill  size={30}/>
+                </>  
+            ),
+            href: 'SoftwareResume4-05.pdf',
+            style: 'rounded-br-md',
+            download: true,
         }
     ]
   return (
