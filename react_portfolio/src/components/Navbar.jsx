@@ -7,23 +7,23 @@ const Navbar = () => {
   const links = [
     {
       id: 1,
-      link: "home",
+      link: "Home",
     },
     {
       id: 2,
-      link: "about",
+      link: "About",
     },
     {
       id: 3,
-      link: "portfolio",
+      link: "Portfolio",
     },
     {
       id: 4,
-      link: "experience",
+      link: "Experience",
     },
     {
       id: 5,
-      link: "contact",
+      link: "Contact",
     },
   ];
 
@@ -52,7 +52,7 @@ const Navbar = () => {
       {links.map(({ id, link }) => (
              <li 
              key={id}
-             className="px-4 cursor-pointer py-6 text-4xl ">
+             className="px-4 cursor-pointer py-6 text-4xl">
              {link}
            </li>
         ))}
