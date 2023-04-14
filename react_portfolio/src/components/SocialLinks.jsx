@@ -56,7 +56,7 @@ const SocialLinks = () => {
               download={download}
               target='_blank'
             >
-              LinkedIn <FaLinkedin size={30} />
+              {child}
             </a>
           </li>
         ))}
