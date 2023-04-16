@@ -23,49 +23,49 @@ const Experience = () => {
             id: 2,
             src: express,
             title: 'Express',
-            style: 'shadow-orange-500'
+            style: 'shadow-green-300'
         },
         {
             id: 3,
             src: reactIcon,
             title: 'React',
-            style: 'shadow-orange-500'
+            style: 'shadow-blue-300'
         },
         {
             id: 4,
             src: tailwind,
             title: 'Tailwind',
-            style: 'shadow-orange-500'
+            style: 'shadow-cyan-500'
         },
         {
             id: 5,
             src: materialUI,
             title: 'MaterialUI',
-            style: 'shadow-orange-500'
+            style: 'shadow-blue-800'
         },
         {
             id: 6,
             src: stripe,
             title: 'Stripe Payment',
-            style: 'shadow-orange-500'
+            style: 'shadow-purple-500'
         },
         {
             id: 7,
             src: mongo,
             title: 'MongoDB',
-            style: 'shadow-orange-500'
+            style: 'shadow-green-500'
         },
         {
             id: 8,
             src: javascript,
             title: 'JavaScript',
-            style: 'shadow-orange-500'
+            style: 'shadow-yellow-500'
         },
         {
             id: 9,
             src: graphql,
             title: 'graphQl',
-            style: 'shadow-orange-500'
+            style: 'shadow-pink-500'
         }
     ]
 
@@ -80,9 +80,9 @@ const Experience = () => {
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
                 {
                     techs.map(({id, src, title, style }) => (
-                        <div key={id} className='shadow-md hover:scale-105 duration-500 py-2 rounded-lg'>
-                            <img src={html} alt="html" className='w-20 mx-auto' />
-                             <p className='mt-4'>HTML</p>
+                        <div key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
+                            <img src={src} alt="html" className='w-20 mx-auto' />
+                             <p className='mt-4'>{title}</p>
                         </div>
                     ))
                 }
