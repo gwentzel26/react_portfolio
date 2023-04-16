@@ -52,7 +52,7 @@ const Portfolio = () => {
              </div>
               <div className="flex items-center justify-center mb-4">
                 <button className="text-xl w-1/2 px-2  m-4 duration-200 hover:scale-110 ">
-                  Demo
+                  Website
                 </button>
                 <button className="text-xl w-1/2 px-1 bg-black m-4 duration-200 hover:scale-110 border-4 border-gray-500">
                   Code

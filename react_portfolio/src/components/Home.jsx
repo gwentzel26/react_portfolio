@@ -2,7 +2,7 @@ import React from "react";
 import HeroImage from "../assets/Hero.jpeg";
 import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-scroll";
-import Portfolio from "./Portfolio";
+
 const Home = () => {
   return (
     <div
@@ -41,7 +41,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="personal profile"
-            className="rounded-2xl mx-auto w-2/5 md:w-4/5 "
+            className="rounded-2xl mx-auto w-3/5 md:w-4/5 "
           />
         </div>
       </div>
