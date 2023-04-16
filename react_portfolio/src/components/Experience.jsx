@@ -18,8 +18,55 @@ const Experience = () => {
             src: html,
             title: 'HTML',
             style: 'shadow-orange-500'
+        },
+        {
+            id: 2,
+            src: express,
+            title: 'Express',
+            style: 'shadow-orange-500'
+        },
+        {
+            id: 3,
+            src: reactIcon,
+            title: 'React',
+            style: 'shadow-orange-500'
+        },
+        {
+            id: 4,
+            src: tailwind,
+            title: 'Tailwind',
+            style: 'shadow-orange-500'
+        },
+        {
+            id: 5,
+            src: materialUI,
+            title: 'MaterialUI',
+            style: 'shadow-orange-500'
+        },
+        {
+            id: 6,
+            src: stripe,
+            title: 'Stripe Payment',
+            style: 'shadow-orange-500'
+        },
+        {
+            id: 7,
+            src: mongo,
+            title: 'MongoDB',
+            style: 'shadow-orange-500'
+        },
+        {
+            id: 8,
+            src: javascript,
+            title: 'JavaScript',
+            style: 'shadow-orange-500'
+        },
+        {
+            id: 9,
+            src: graphql,
+            title: 'graphQl',
+            style: 'shadow-orange-500'
         }
- 
     ]
 
   return (
