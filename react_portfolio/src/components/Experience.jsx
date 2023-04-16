@@ -13,7 +13,7 @@ import graphql from "../assets/Tech-Icons/graphql.png";
 const Experience = () => {
   return (
     <div name="experience" className='bg-gradient-to-b from-blue-800 to-black w-full h-screen'>
-        <div className='max-w-screen'>
+        <div className='max-w-screen-lg '>
             <div>
                 <p>Experience</p>
                 <p>These are the technologies I've worked with</p>
