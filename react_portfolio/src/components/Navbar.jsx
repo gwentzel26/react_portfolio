@@ -1,7 +1,10 @@
 import React, {useState} from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
-import SocialLinks from "./SocialLinks";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+import { BsFillPersonLinesFill } from "react-icons/bs";
+
 const Navbar = () => {
 
   const [nav, setNav ] = useState(false);
@@ -27,6 +30,47 @@ const Navbar = () => {
       link: "Contact",
     },
   ];
+  const SLinks = [
+    {
+      id: 1,
+      child: (
+        <>
+          LinkedIn <FaLinkedin size={30} />
+        </>
+      ),
+      href: "https://www.linkedin.com/in/gavinwentzel/",
+      style: "rounded-tr-md",
+    },
+    {
+      id: 2,
+      child: (
+        <>
+          Github <FaGithub size={30} />
+        </>
+      ),
+      href: "https://github.com/gwentzel26",
+    },
+    {
+      id: 3,
+      child: (
+        <>
+          Mail <HiOutlineMail size={30} />
+        </>
+      ),
+      href: "mailto:gavinwentzel@gmail.com",
+    },
+    {
+      id: 4,
+      child: (
+        <>
+          Resume <BsFillPersonLinesFill size={30} />
+        </>
+      ),
+      href: "SoftwareResume4-05.pdf",
+      style: "rounded-br-md",
+      download: true,
+    },
+  ]
 
   return (
     <div className="flex justify-between items-center w-full h-20 text-white bg-black px-4 fixed">
@@ -49,7 +93,7 @@ const Navbar = () => {
       </div>
 
     {nav && (
-      <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-400">
+      <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-[#0f0c29] via-[#302b63] to-[#24243e] text-gray-400">
       {links.map(({ id, link }) => (
              <li 
              key={id}
@@ -57,10 +101,26 @@ const Navbar = () => {
             <Link onClick={()=> setNav(!nav)} to={link} smooth duration={500}>{link}</Link>
            </li>
            
+           
         ))}
-      </ul>
+        {SLinks.map(({id, child, href, style, download}) => ( <li key={id} className={
+        "flex items-center w-32 h-8 px-4 bg-gradient-to-r from-[#302b63] to-blue-500 my-1" 
+        + " " + style}>
+        <a
+          href={href}
+          className="flex justify-between items-center w-full text-white hover:scale-105"
+          download={download}
+          target='_blank'
+          rel="noreferrer"
+        >
+          {child}
+        </a>
+      </li> ))}
 
-      )}
+
+      </ul>
+      )
+     }
     </div>
   );
 };
