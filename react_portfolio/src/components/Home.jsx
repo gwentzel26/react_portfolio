@@ -2,18 +2,23 @@ import React from "react";
 import HeroImage from "../assets/Hero.jpeg";
 import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-scroll";
+import Typewriter from "./typewriter.tsx";
+
+
 
 const Home = () => {
   return (
+   
     <div
       name="Home"
-      className="h-screen w-full bg-gradient-to-b from-blue-900 via-black to-blue-600"
+      className="h-[140vh] md:h-screen w-full bg-gradient-to-b from-blue-900 via-black to-blue-600 pt-4 sm:pt-80 md:pt-0"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+      <div className="max-w-screen-lg mx-auto flex flex-col md:flex-row items-center space-between h-full px-4">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a Full Stack Developer
+          <h2 className="text-4xl sm:text-6xl font-bold text-white">
+            <Typewriter />
           </h2>
+          
           <p className="text-gray-400 py-6">
             I have 2 years of experience building and designing software
             <br></br> and 3 years of experience creating digital marketing
@@ -41,7 +46,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="personal profile"
-            className="rounded-2xl mx-auto w-3/5 md:w-4/5 "
+            className="rounded-2xl mx-auto w-3/5 md:w-4/5 pb-4 "
           />
         </div>
       </div>
