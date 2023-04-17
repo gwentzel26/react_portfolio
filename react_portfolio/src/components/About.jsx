@@ -13,10 +13,7 @@ const About = () => {
 
         <p className="text-xl mt-14">
           
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos illum
-          saepe sequi molestiae voluptatibus, neque possimus quo recusandae
-          beatae deleniti at dolore architecto atque ullam vero dignissimos
-          porro officia commodi?
+        
         </p>
 
         <br></br>
