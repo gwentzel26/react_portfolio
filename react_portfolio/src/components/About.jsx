@@ -13,7 +13,8 @@ const About = () => {
 
         <p className="text-xl mt-14">
           
-        
+         I studied Digital Marketing, Business Information Management, and Mathematics at the University of Denver and graduated in 2019.  I worked with three different companies to conduct digital marketing campaigns through SEO, social media advertising, and Google Analytics.  I learned to create and filter databases with SQL and microsoft Access, web design and best practices in HTML/CSS, data analysis and visualization in Python and R, as well as well as studie algorythms, multivariable calcus, differential equations, and non-parametric statistics. 
+         This pas
         </p>
 
         <br></br>
