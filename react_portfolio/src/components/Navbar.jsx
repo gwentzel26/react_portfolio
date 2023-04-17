@@ -30,6 +30,7 @@ const Navbar = () => {
       link: "Contact",
     },
   ];
+  // Social Links Array
   const SLinks = [
     {
       id: 1,
@@ -73,10 +74,10 @@ const Navbar = () => {
   ]
 
   return (
+    // Desktop Navbar
     <div className="flex justify-between items-center w-full h-20 text-white bg-black px-4 fixed">
-      <div>
-        <h1 className="text-5xl font-signature ml-2"> Gavin </h1>
-      </div>
+      <Link to={"Home"} smooth duration={500}> <h1 className="text-5xl font-signature ml-2"> Gavin </h1>
+        </Link>
       <ul className="hidden md:flex">
         {links.map(({ id, link }) => (
              <li 
@@ -92,6 +93,7 @@ const Navbar = () => {
         {nav ? <FaTimes size={35} /> : <FaBars size={35} /> }
       </div>
 
+          {/* Mobil Navbar Logic */}
     {nav && (
       <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-[#0f0c29] via-[#302b63] to-[#24243e] text-gray-400">
       {links.map(({ id, link }) => (
