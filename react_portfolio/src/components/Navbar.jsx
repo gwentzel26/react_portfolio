@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
-
+import SocialLinks from "./SocialLinks";
 const Navbar = () => {
 
   const [nav, setNav ] = useState(false);
@@ -56,6 +56,7 @@ const Navbar = () => {
              className="px-4 cursor-pointer py-6 text-4xl">
             <Link onClick={()=> setNav(!nav)} to={link} smooth duration={500}>{link}</Link>
            </li>
+           
         ))}
       </ul>
 
