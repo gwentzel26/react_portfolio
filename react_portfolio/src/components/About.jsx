@@ -16,14 +16,14 @@ const About = () => {
          I studied Digital Marketing, Business Information Management, and Mathematics at the University of Denver and graduated in 2019. 
           I worked with three different companies to conduct digital marketing campaigns through SEO, social media advertising, and Google Analytics. 
            I learned to create and filter databases with Microsoft Access and SQL, to design/wireframe websites with best practices in HTML/CSS, and to analyze and visualize data 
-           in Python and R. I studied algorythms, multivariable calcus, differential equations, and non-parametric statistics as well. 
+           in Python and R. I studied algorythms, multivariable calculus, differential equations, and non-parametric statistics as well. 
          
         </p>
 
         <br></br>
 
         <p className="text-xl">I completed the University of Denver's Full Stack Web Development in the spring of 2022 where I studied the entire life cycle of software applications 
-        from backend databases and servers, in MongoDB and Express, to front end frameworks and design, in React and materialUI/bootstrap, after polishing the fundamentals in CSS and
+        from back-end databases and servers, in MongoDB and Express, to front-end frameworks and design, in React and materialUI/bootstrap, after polishing the fundamentals in CSS and
         vanilla javascript.  I learned how to fetch and display data from third party API's and created several projects with this knowledge.  
         </p>
         <br></br>
