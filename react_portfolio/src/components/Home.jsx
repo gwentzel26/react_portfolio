@@ -11,7 +11,7 @@ const Home = () => {
    
     <div
       name="Home"
-      className="h-[140vh] md:h-screen w-full bg-gradient-to-b from-blue-900 via-black to-blue-600 pt-4 sm:pt-80 md:pt-0"
+      className="h-[140vh] md:h-screen w-full bg-gradient-to-b from-blue-900 via-black to-blue-600 sm:pt-80 md:pt-0"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col md:flex-row items-center space-between h-full px-4">
         <div className="flex flex-col justify-center h-full">
@@ -46,7 +46,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="personal profile"
-            className="rounded-2xl mx-auto w-3/5 md:w-4/5 pb-4 "
+            className="rounded-2xl mx-auto w-3/4 md:w-4/5 pb-4"
           />
         </div>
       </div>
