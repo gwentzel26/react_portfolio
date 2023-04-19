@@ -18,7 +18,7 @@ const onSubmit = async(e) => {
 
 return (
 <section name="Contact" className="w-full h-[140vh] md:h-screen bg-gradient-to-b from-black to-blue-800 p-4 pt-24 md:pt-0 text-black">
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col md:justify-center w-full h-full">
 
    
       {/* HEADINGS */}
@@ -35,7 +35,7 @@ return (
       >
         <div>
           <p className="font-semibold text-4xl">
-            <span className="text-yellow-500">CONTACT ME</span> <span className="border-b-4 border-blue-300 text-white">TO GET STARTED</span>
+            <span className="text-yellow-500">CONTACT ME</span> <span className=" md:border-b-4 border-blue-300 text-white">TO GET STARTED</span>
           </p>
           <div className="flex md:justify-end my-5 bg-gradient-rainblue">
             
