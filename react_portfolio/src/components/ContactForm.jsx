@@ -17,7 +17,10 @@ const onSubmit = async(e) => {
 }
 
 return (
-<section name="Contact" className="w-full h-[140vh] md:h-screen bg-gradient-to-b from-black to-blue-800 p-4 pt-24 md:pt-0 text-white">
+<section name="Contact" className="w-full h-[140vh] md:h-screen bg-gradient-to-b from-black to-blue-800 p-4 pt-24 md:pt-0 text-black">
+    <div className="flex flex-col items-center justify-center">
+
+   
       {/* HEADINGS */}
       <motion.div
         initial="hidden"
@@ -32,7 +35,7 @@ return (
       >
         <div>
           <p className="font-semibold text-4xl">
-            <span className="text-yellow-500">CONTACT ME</span> <span className="border-b-4 border-blue-300">TO GET STARTED</span>
+            <span className="text-yellow-500">CONTACT ME</span> <span className="border-b-4 border-blue-300 text-white">TO GET STARTED</span>
           </p>
           <div className="flex md:justify-end my-5 bg-gradient-rainblue">
             
@@ -56,7 +59,7 @@ return (
           <form
             target="_blank"
             onSubmit={onSubmit}
-            action="https://formsubmit.co/e8a5bdfa807605332f809e5656e27c6e"
+            action="https://formsubmit.co/gavinwentzel@gmail.com"
             method="POST"
           >
             <input
@@ -69,7 +72,7 @@ return (
               })}
             />
             {errors.name && (
-              <p className="text-red mt-1">
+              <p className="text-white mt-1">
                 {errors.name.type === "required" && "This field is required."}
                 {errors.name.type === "maxLength" && "Max length is 100 char."}
               </p>
@@ -85,7 +88,7 @@ return (
               })}
             />
             {errors.email && (
-              <p className="text-red mt-1">
+              <p className="text-white mt-1">
                 {errors.email.type === "required" && "This field is required."}
                 {errors.email.type === "pattern" && "Invalid email address."}
               </p>
@@ -103,7 +106,7 @@ return (
               })}
             />
             {errors.message && (
-              <p className="text-red mt-1">
+              <p className="text-white mt-1">
                 {errors.message.type === "required" &&
                   "This field is required."}
                 {errors.message.type === "maxLength" &&
@@ -112,7 +115,7 @@ return (
             )}
 
             <button
-              className="bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300"
+              className="bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300 text-white"
               type="submit"
             >
               SEND MESSAGE
@@ -120,6 +123,7 @@ return (
           </form>
         </motion.div>
       </div>
+    </div>
     </section>
 )
             }
