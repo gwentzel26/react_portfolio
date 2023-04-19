@@ -17,7 +17,7 @@ const onSubmit = async(e) => {
 }
 
 return (
-<section name="Contact" className="w-full h-[140vh] md:h-screen bg-gradient-to-b from-black to-blue-800 p-4 pt-24 md:pt-0 text-black">
+<section name="Contact" className="w-full md:h-screen bg-gradient-to-b from-black to-blue-800 p-4 pt-24 md:pt-0 text-black">
     <div className="flex flex-col md:justify-center w-full h-full">
 
    
@@ -49,7 +49,7 @@ return (
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
-          transition={{ delay: 0.2, duration: 1 }}
+          transition={{ delay: 0.1, duration: .5 }}
           variants={{
             hidden: { opacity: 0, y: 50 },
             visible: { opacity: 1, y: 0 },
