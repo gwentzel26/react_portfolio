@@ -59,7 +59,7 @@ return (
           <form
             target="_blank"
             onSubmit={onSubmit}
-            action="https://formsubmit.co/gavinwentzel@gmail.com"
+            action="https://formsubmit.co/542f6e551c095f93a9acc060e071db7a"
             method="POST"
           >
             <input
