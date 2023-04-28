@@ -16,8 +16,8 @@ const Portfolio = () => {
     {
       id: 2,
       src: Marvel,
-      website: "//bhodge166.github.io/MarvelForBeginners/",
-      code: "//github.com/gwentzel26/MarvelForBeginners"
+      website: "//gwentzel26.github.io/Marvel4Beginners_update/",
+      code: "//github.com/gwentzel26/Marvel4Beginners_update"
      
     },
     {
