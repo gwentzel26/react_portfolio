@@ -20,8 +20,8 @@ const Home = () => {
           </h2>
           
           <p className="text-gray-400 py-6">
-            I have 2 years of experience building and designing software
-            <br></br> and 3 years of experience creating digital marketing
+            I have 3 years of experience building and designing software applications
+            <br></br> and 5 years of experience creating digital marketing
             campaigns. <br></br> Currently, I have been building web
             applications using technologies like React, TailwindCSS, Node,
             Express, and MongoDB
