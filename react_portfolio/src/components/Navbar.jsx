@@ -97,7 +97,7 @@ const Navbar = () => {
     {nav && (
       <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-[#0f0c29] via-[#302b63] to-[#24243e] text-gray-400">
       {links.map(({ id, link }) => (
-             <li 
+          <li 
              key={id}
              className="px-4 cursor-pointer py-6 text-4xl">
             <Link onClick={()=> setNav(!nav)} to={link} smooth duration={500}>{link}</Link>

@@ -13,7 +13,7 @@ const About = () => {
 
         <p className="text-xl mt-14 indent-[30px]">
           
-         I studied Digital Marketing, Business Information Management, and Mathematics at the University of Denver and graduated in 2019. 
+         I studied Digital , Business Information Management, and Mathematics at the University of Denver and graduated in 2019. 
           I worked with three different companies to conduct digital marketing campaigns through SEO, social media advertising, and Google Analytics. 
            I learned to create and filter databases with Microsoft Access and SQL, to design and wireframe websites with best practices in HTML/CSS, and to analyze and visualize data 
            in Python and R. I studied algorithms, multivariable calculus, differential equations, and non-parametric statistics as well. 
